@@ -1,7 +1,9 @@
 # lesson_36
 
 A new Flutter project.
-
+<img src="assets/task1.png" width="350" title="hover text">
+<img src="assets/task2.png" width="350" title="hover text">
+<img src="assets/task3.png" width="350" title="hover text">
 ## Getting Started
 
 This project is a starting point for a Flutter application.
