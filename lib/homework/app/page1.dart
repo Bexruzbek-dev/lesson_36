@@ -35,7 +35,7 @@ class _Page1State extends State<Page1> {
 }
 
 void timerToNextPage(context) {
-  Timer(Duration(seconds: 5), () {
+  Timer(const Duration(seconds: 5), () {
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
         builder: (ctx) {

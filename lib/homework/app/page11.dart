@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:lesson_36/homework/app/page6.dart';
-import 'package:lesson_36/homework/app/page7.dart';
 
-class Page5 extends StatefulWidget {
-  const Page5({super.key});
+
+class Page11 extends StatefulWidget {
+  const Page11({super.key});
 
   @override
-  State<Page5> createState() => _Page5State();
+  State<Page11> createState() => _Page11State();
 }
 
-class _Page5State extends State<Page5> {
+class _Page11State extends State<Page11> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,7 +62,7 @@ class _Page5State extends State<Page5> {
               Navigator.of(context).pushReplacement(
                 MaterialPageRoute(
                   builder: (ctx) {
-                    return Page7();
+                    return Page6();
                   },
                 ),
               );
@@ -100,15 +100,7 @@ class _Page5State extends State<Page5> {
                 ),
               ),
               TextButton(
-                onPressed: () {
-                  Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(
-                      builder: (ctx) {
-                        return Page6();
-                      },
-                    ),
-                  );
-                },
+                onPressed: () {},
                 child: Text(
                   "Log In",
                   style: TextStyle(
